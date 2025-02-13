@@ -39,8 +39,20 @@ header{
     transition: box-shadow ease-out 0.5s;
   }  
 
+  .dialog-img{
+    width: 100%;
+    display: block;
+    
+  }
+
   .gallery-img:hover{
     box-shadow: 0px 0px 50px 5px black;
+    opacity: 1;
+   
+  }
+
+  .img-container{
+   
   }
 
 
@@ -58,4 +70,25 @@ footer{
     }
 }
 
-   
+
+/* dialog{
+  
+} */
+
+
+
+
+.close{
+    margin-bottom: 10px;
+}
+
+.prev{
+    position: absolute;
+    bottom: 250px; 
+}
+
+.next{
+    position: absolute;
+    bottom: 250px;
+    right: 20px;
+}
