@@ -1,0 +1,30 @@
+header{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 150px;
+
+        li{
+            border: 1px solid black;
+            padding: 10px 30px 10px 30px;
+            border-radius: 5px;
+        }
+
+        li:hover{
+            background-color: black;
+            color: white;
+        }
+
+    }
+
+}
+
+
+   
